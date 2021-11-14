@@ -1,34 +1,28 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+import React from 'react';
+import "./ButtonAppBar.css";
+import Calculator from './Calculator';
+import Dictionary from './Dictionary';
+import App from '../App';
+import {Link } from 'react-router-dom';
 
-function ButtonAppBar() {
-  return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
-        <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-          >
-            { <MenuIcon /> }
-          </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Virtual Classroom
-          </Typography>
-          <Button color="inherit">Logout</Button>
-        </Toolbar>
-      </AppBar>
-    </Box>
-  );
-}
+function ButtonAppBar(){
+    return (
+      <nav >
+        <h1 text-size="10px">VIRTUAL CLASSROOM</h1>
+        <ul class="app-bar-menu">
+          <Link to="/calculator">
+            <li>Calculator</li>
+          </Link>
+          <Link to="/dictionary">
+            <li>Dictionary</li>
+          </Link>
+          <Link to="/books">
+            <li>Books</li>
+          </Link>
+        </ul>
+      </nav>
+    );
+  }
+
 
 export default ButtonAppBar;

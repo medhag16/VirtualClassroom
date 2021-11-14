@@ -6,6 +6,18 @@
   letter-spacing: 0.5px;
 }
 
+.block-size-appbar{
+  margin:0px;
+  padding:0px;
+  position:fixed;
+}
+
+.block-size-chat{
+  margin:0px;
+  padding:70px;
+  position:relative;
+}
+
 .ce-chat-list {
   background-color: rgb(240, 240, 240) !important;
 }
