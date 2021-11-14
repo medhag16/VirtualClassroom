@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from "react";
 
-export default function Dictionary() {
-    return (
-        <div>
-            dictionary
-        </div>
-    )
+function Dictionary() {
+
+  return(
+    <div className="container">
+        <h2>dictionary</h2>
+    </div>
+  ); 
 }
+ export default Dictionary;
+
