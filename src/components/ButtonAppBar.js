@@ -1,15 +1,16 @@
 import React from 'react';
 import './ButtonAppBar.css';
 import '../App';
+import {Container} from "@material-ui/core";
 import Calculator from './Calculator';
-import Dictionary from './Dictionary';
+import Dictionary from './dictionary/Dictionary';
 import {Link } from 'react-router-dom';
 
 function ButtonAppBar(){
     return (
-      <nav>
+      <nav >
         <h1 text-size="8px">VIRTUAL CLASSROOM</h1>
-        <ul class="app-bar-menu">
+        <ul>
           <Link to="/">
             <li>Home</li>
           </Link>

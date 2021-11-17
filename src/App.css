@@ -6,16 +6,16 @@
   letter-spacing: 0.5px;
 }
 
-.block-size-appbar{
-  margin:0px;
-  padding:0px;
-  position:fixed;
+.complete-block{
+  display:flex;
+  flex-direction: column;
 }
 
 .block-size-chat{
+  height: 100px;
   margin:0px;
   padding:70px;
-  position:relative;
+  position:static;
 }
 
 .ce-chat-list {
