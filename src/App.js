@@ -25,14 +25,22 @@ function App() {
 }
 
 const Home=()=>(
-    
-      <div className="block-size-chat"> 
+      
+      <div className="complete-block">
+        <div className="quote-generator">
+          <i>"Make it as simple as possible, but not simpler."</i>
+          <p></p>
+          <p>Albert Einstein</p>  
+        </div> 
+        <div className="block-size-chat">
         <ChatEngine 
           height='90vh'
           projectID="4aac212a-f824-4416-b240-dd3cfac270c9" 
           userName="guptamedha789"
           userSecret="A12345678" 
         />
+        </div>
+        
       </div> 
     
 );
