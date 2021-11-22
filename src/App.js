@@ -3,6 +3,7 @@ import {ChatEngine} from 'react-chat-engine';
 import ButtonAppBar from './components/ButtonAppBar';
 import Calculator from './components/Calculator';
 import Dictionary from './components/dictionary/Dictionary';
+import RandomQuote from './components/randomQuote';
 import {Container} from "@material-ui/core";
 import "./App.css"
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -28,17 +29,15 @@ const Home=()=>(
       
       <div className="complete-block">
         <div className="quote-generator">
-          <i>"Make it as simple as possible, but not simpler."</i>
-          <p></p>
-          <p>Albert Einstein</p>  
+          <RandomQuote/>
         </div> 
         <div className="block-size-chat">
-        <ChatEngine 
-          height='90vh'
-          projectID="4aac212a-f824-4416-b240-dd3cfac270c9" 
-          userName="guptamedha789"
-          userSecret="A12345678" 
-        />
+          <ChatEngine 
+            height='90vh'
+            projectID="4aac212a-f824-4416-b240-dd3cfac270c9" 
+            userName="guptamedha789"
+            userSecret="A12345678" 
+          />
         </div>
         
       </div> 
