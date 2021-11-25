@@ -19,7 +19,7 @@ function RandomQuote() {
 
     const getNewQuote=()=>{
         const colors=[
-            "#F0F8FF","#faebd7","#deb887","#f49750","#e99698","#dcdcdc","#ffe4e1","#ffdab9"
+            "#F0F8FF","#faebd7","#deb887","#f49750","#ffff99","#dcdcdc","#ffe4e1","#ffdab9"
         ];
         let randIndex=Math.floor(Math.random()*quotes.length);
         let randColorIndex=Math.floor(Math.random()*colors.length);
@@ -33,7 +33,7 @@ function RandomQuote() {
             <div className="card-body">
                 <h className="card-title">&quot;{randomQuote.text}&quot;</h>
                 <div style={{height:"35px", textAlign: "right"}}></div>
-                <h5 className="card-text" >- {randomQuote.author}</h5>
+                <h5 className="card-text" >- {randomQuote.author?randomQuote.author:"Anonymous"}</h5>
                 <button  onClick={getNewQuote} className="btn btn-primary ml-3" style={{alignItems:"stretch"}}>New Quote</button>
             </div>
         </div>   

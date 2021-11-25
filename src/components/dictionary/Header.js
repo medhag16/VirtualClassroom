@@ -33,12 +33,12 @@ const Header = ({
   }, 500);
 
   return (
-    <div className="header">
+    <div className="header-dict">
       <span className="title">{word ? word : "DICTIONARY"}</span>
-      <div className="inputs">
+      <div className="inputs-dict">
         <ThemeProvider theme={darkTheme}>
           <TextField
-            className="search"
+            className="search-dict"
             id="filled-basic"
             // value={word}
             label="Search a Word"

@@ -57,13 +57,12 @@ nav ul{
 	float:right;
 }
 nav ul li{
+	color: white;
+	font-weight:bold;
 	font-size: 20px;
-	margin-top: -40px;
 	margin: 10px;
-	align-items: center;
 	display: inline-block;
-	list-style: none;
-	font-family: sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 nav ul li a{
 	color:#fff;

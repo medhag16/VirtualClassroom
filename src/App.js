@@ -1,48 +1,33 @@
-import React from "react";
-import {ChatEngine} from 'react-chat-engine';
+import React, { useState } from 'react'
 import ButtonAppBar from './components/ButtonAppBar';
 import Calculator from './components/Calculator';
+import LoginForm from './components/LoginForm';
 import Dictionary from './components/dictionary/Dictionary';
-import RandomQuote from './components/randomQuote';
 import {Container} from "@material-ui/core";
+import NotesFeature from './components/notesTab/NotesFeature';
 import "./App.css"
+import Home from './components/home/Home'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
+  console.log("hello");
+  console.log(localStorage.getItem('username'));
+  if(!localStorage.getItem('username') ) return <LoginForm/>
   return(
     <div className="complete-block">
       <ButtonAppBar/>
       <Container fixed>
-
         <Switch>
           <Route path='/' exact component={Home}/>
+          <Route path='/notes' component={NotesFeature}/>
           <Route path='/dictionary' component={Dictionary}/>
           <Route path='/calculator' component={Calculator}/>
         </Switch>
-        
       </Container>
     </div>
   );
 }
 
-const Home=()=>(
-      
-      <div className="complete-block">
-        <div className="quote-generator">
-          <RandomQuote/>
-        </div> 
-        <div className="block-size-chat">
-          <ChatEngine 
-            height='90vh'
-            projectID="4aac212a-f824-4416-b240-dd3cfac270c9" 
-            userName="guptamedha789"
-            userSecret="A12345678" 
-          />
-        </div>
-        
-      </div> 
-    
-);
 
  export default App;
 

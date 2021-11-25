@@ -6,35 +6,13 @@
   letter-spacing: 0.5px;
 }
 
-.complete-block{
-  display:flex;
-  
-  flex-direction: row;
-}
-
-.quote-generator{
-  text-align: left;
-  margin-right: 10px;
-  padding: 10px;
-  margin-left: -210px;
-  margin-top: 100px;
-  margin-bottom: 10px;
-  width:250px;
-  background-color:rgb(252, 206, 238);
-
-}
 
 .quote-generator i{
   text-transform: capitalize;
   text-shadow: grey;
 }
 
-.block-size-chat{
-  position: fixed;
-  width: 1500px;
-  margin:0px;
-  padding:70px;
-}
+
 
 .ce-chat-list {
   background-color: rgb(240, 240, 240) !important;

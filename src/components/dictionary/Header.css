@@ -1,4 +1,4 @@
-.header {
+.header-dict {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -23,13 +23,13 @@
     }
   }
   
-  .inputs {
+  .inputs-dict {
     width: 100%;
     display: flex;
     justify-content: space-around;
   }
   
-  .search {
+  .search-dict {
     width: 43%;
   }
   

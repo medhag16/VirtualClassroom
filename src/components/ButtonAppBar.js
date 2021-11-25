@@ -9,16 +9,22 @@ import {Link } from 'react-router-dom';
 function ButtonAppBar(){
     return (
       <nav >
-        <h1 text-size="8px">VIRTUAL CLASSROOM</h1>
+        <h1 text-size="8px">VIRTUAL CLASSROOM </h1>
         <ul>
-          <Link to="/">
+        <Link to="/">
             <li>Home</li>
+          </Link>
+          <Link to="/notes">
+            <li>Notes</li>
           </Link>
           <Link to="/calculator">
             <li>Calculator</li>
           </Link>
           <Link to="/dictionary">
             <li>Dictionary</li>
+          </Link>
+          <Link to="/logout">
+            <li>Logout</li>
           </Link>
           
         </ul>

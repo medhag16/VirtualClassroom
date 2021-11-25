@@ -8,12 +8,18 @@ function Calculator() {
 
   const display=(symbol)=> {
     setExpression((prev)=>prev+symbol);
-
+    if(expression[expression.length-1]=="="){
+      if(/[1-9.]/.test(symbol))  setExpression(symbol);
+      else setExpression(answer+symbol);
+    }
   };
 
   const calculate=()=> {
-    setAnswer(eval(expression));
-    setExpression((prev)=>prev+"=");
+    if(expression[expression.length-1]=="=") setAnswer(eval(expression));
+    else{
+      setAnswer(eval(expression));
+      setExpression((prev)=>prev+"=");
+    }
   };
 
   const allClear=()=> {
@@ -57,5 +63,6 @@ function Calculator() {
     </div>
   ); 
 }
- export default Calculator;
+
+export default Calculator;
 
