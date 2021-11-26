@@ -18,14 +18,14 @@ const Home= () => {
 
 	function renderChatForm(creds) {
 		return (
-			<div>
+			<div >
 				<input 
 					placeholder='Username' 
 					value={username} 
 					onChange={(e) => setUsername(e.target.value)} 
 				/>
 				<button onClick={() => createDirectChat(creds)}>
-					Create
+					DM
 				</button>
 			</div>
 		)

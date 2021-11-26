@@ -1,10 +1,7 @@
-import React from 'react';
+import React from "react";
 import './ButtonAppBar.css';
-import '../App';
-import {Container} from "@material-ui/core";
-import Calculator from './Calculator';
-import Dictionary from './dictionary/Dictionary';
-import {Link } from 'react-router-dom';
+
+import {Link } from "react-router-dom";
 
 function ButtonAppBar(){
     return (
@@ -17,14 +14,14 @@ function ButtonAppBar(){
           <Link to="/notes">
             <li>Notes</li>
           </Link>
-          <Link to="/calculator">
-            <li>Calculator</li>
-          </Link>
           <Link to="/dictionary">
             <li>Dictionary</li>
           </Link>
-          <Link to="/logout">
-            <li>Logout</li>
+          <Link to="/quiz">
+            <li>Quiz</li>
+          </Link>
+          <Link to="/calculator">
+            <li>Calculator</li>
           </Link>
           
         </ul>

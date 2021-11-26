@@ -22,3 +22,13 @@
     padding:70px;
     margin-right: 0px;
   }
+
+  @media (max-width: 900px) {
+    .header {
+      justify-content: space-evenly;
+      height: 25vh;
+    }
+    .title {
+      font-size: 11vw;
+    }
+  }
