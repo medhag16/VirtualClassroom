@@ -40,8 +40,8 @@ const Home= () => {
           <ChatEngine 
             height='91vh'
             projectID="4aac212a-f824-4416-b240-dd3cfac270c9" 
-            userName={localStorage.getItem('username')}
-            userSecret={localStorage.getItem('password')}
+            userName="guptamedha789"
+            userSecret="A12345678"
             renderNewChatForm={(creds) => renderChatForm(creds)}
           />
         </div>

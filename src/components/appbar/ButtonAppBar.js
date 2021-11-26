@@ -12,6 +12,9 @@ function ButtonAppBar(){
             <li>Home</li>
           </Link>
           <Link to="/notes">
+          <Link to="/library">
+            <li>Library</li>
+          </Link>
             <li>Notes</li>
           </Link>
           <Link to="/dictionary">

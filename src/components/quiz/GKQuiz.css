@@ -2,7 +2,6 @@
     max-width: 100%;
     margin-top: 80px;
     border-color:black;
-
   }
   
   .header-quiz {
@@ -10,7 +9,7 @@
     justify-content:center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: rgb(245, 220, 220);
     padding: 0 1.5rem;
   }
   
