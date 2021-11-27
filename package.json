@@ -1,6 +1,5 @@
 {
   "name": "student_dashboard",
-  "homepage": "http://medhag16.github.io/VirtualClassroom",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

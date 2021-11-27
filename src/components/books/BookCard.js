@@ -16,7 +16,7 @@ const BookCard = ({thumbnail,title,pageCount,language,description,authors,publis
         alt={title}
       />
       <CardBody>
-        <CardTitle className='card-title'>{title}</CardTitle>
+        <CardTitle className='card-title-lib'>{title}</CardTitle>
         <Button onClick={toggle}>Description</Button>
       </CardBody>
       <Modal isOpen={modal} toggle={toggle}>
@@ -68,7 +68,7 @@ const BookCard = ({thumbnail,title,pageCount,language,description,authors,publis
               target='_blank'
               rel='noopener noreferrer'
             >
-              Info Link
+              Buy Online
             </a>
           </div>
         </div>

@@ -20,8 +20,8 @@ function App() {
           <Route path='/library' component={Bookstore}/>
           <Route path='/notes' component={NotesFeature}/>
           <Route path='/dictionary' component={Dictionary}/>
-          <Route path='/calculator' component={Calculator}/>
           <Route path='/quiz' component={GKQuiz}/>
+          <Route path='/calculator' component={Calculator}/>
         </Switch>
       </Container>
     </div>

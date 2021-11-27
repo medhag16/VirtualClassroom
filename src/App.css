@@ -12,7 +12,9 @@
   text-shadow: grey;
 }
 
-
+.complete-block{
+  width: 100%;
+}
 
 .ce-chat-list {
   background-color: rgb(240, 240, 240) !important;
