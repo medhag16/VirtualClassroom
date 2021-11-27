@@ -1,3 +1,32 @@
+MICROSOFT ENGAGE 2021
+
+PROBLEM STATEMENT-
+Build a functional prototype of a platform that gives students an array of digital academic and social tools to stay engaged with their studies, peers during pandemic
+
+SOLUTION-
+VIRTUAL CLASSROOM: 
+Keeping in mind, the needs of school going kids, built a functional prototype of a classroom where teachers and students can interact and can have meaningful discussions. The product aims at bringing the offline experience of students in virtual mode.
+The product aims at providing a better virtual classroom learning experience for the school kids and comes with the following features-
+
+  **-Group Chat**: Classroom groups for different subjects can be created where teacher can add/remove students. Online class link, evaluation dates, syllabus related details etc  can be shared in this group.
+
+  -**Direct Messaging(DM)**:DM channel can also be created between teacher-student or student-student. Enables them to share feedback about performance or have some meaningful discussion about studies.
+
+  -**Thought of the Day**:Similar to the school classroom board, our product also has a thought of the day displayed on the screen to keep students motivated.
+
+  -**Virtual Library**: The virtual library has books on all subjects and categories like novels, subjects, storybooks etc. 2 options available for students to access the books-
+  Read Online
+  Buy Online 
+
+  -**Notes** :Student can take notes subjectwise and can save or delete. Also search option available to search for a particular note. Dark mode also available.
+  
+  -**Dictionary Feature**:To get the meaning and pronunciation of a particular word. Supports multiple languages
+
+  -**Flashcard Quiz:**This helps in self analysis of the student by answering questions on multiple domains like GK, Science, Geography etc Student can also set the number of questions
+
+  -**Calculator**
+ 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
